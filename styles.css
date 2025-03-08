@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -62,9 +66,9 @@ section {
 footer {
     background-color: #222;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -77,4 +81,24 @@ footer {
     width: 50px;
     height: 50px;
     padding-right: 10px;
+}
+
+.page-content{
+    text-align: center;
+}
+
+#content {
+    padding: 20px;
+    text-align: center;
+}
+
+#content h1 {
+    color: green;
+    font-size: 28px;
+}
+
+#content h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
 }
