@@ -14,19 +14,18 @@
             <img src="icon/icon.jpg" alt="JPCS Logo">
             <h1>JPCS - EVSU Ormoc Campus Chapter</h1>
             <ul class="listing">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">C Language</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">Javascript</a></li>
-                <li><a href="#">PHP</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="#" onclick="maincontent('home')">HOME</a></li>
+                <li><a href="#" onclick="maincontent('c_lang')">C Language</a></li>
+                <li><a href="#" onclick="maincontent('python')">Python</a></li>
+                <li><a href="#" onclick="maincontent('html')">HTML</a></li>
+                <li><a href="#" onclick="maincontent('js')">Javascript</a></li>
+                <li><a href="#" onclick="maincontent('php')">PHP</a></li>
+                <li><a href="#" onclick="maincontent('about')">ABOUT</a></li>
             </ul>
         </div>
     </header>
 
-    <div class="main">
-        <h1>Main Content:</h1>
+    <div class="page-content" id="content">
     </div>
 
     <footer>
@@ -49,6 +48,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="control.js"></script>
 
 </body>
 </html>
