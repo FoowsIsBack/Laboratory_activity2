@@ -15,7 +15,7 @@ function maincontent(page){
     } else if (page == 'js') {
         contentDiv.innerHTML = "<h1>JavaScript</h1><h2>JavaScript (JS) is a powerful programming language used to make websites interactive. It runs in the browser and is essential for modern web development.</h2>";
     } else if (page == 'php') {
-        contentDiv.innerHTML = "<h1>php</h1><h2>PHP (Hypertext Preprocessor) is a server-side scripting language used to build dynamic websites and web applications. It runs on a web server and is mainly used for handling forms, managing databases, and creating user authentication systems.</h2>";
+        contentDiv.innerHTML = "<h1>Php</h1><h2>PHP (Hypertext Preprocessor) is a server-side scripting language used to build dynamic websites and web applications. It runs on a web server and is mainly used for handling forms, managing databases, and creating user authentication systems.</h2>";
     }
 
 }
